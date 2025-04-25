@@ -1,0 +1,6 @@
+pip install discord
+pip install commands
+pip install datetime
+pip install requests
+pip install re
+pip install pytz
