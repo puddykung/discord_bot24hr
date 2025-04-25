@@ -7,7 +7,6 @@ import requests
 import re
 import pytz  # ใช้สำหรับกำหนดโซนเวลา
 
-TOKEN = "MTM1NTYyMTUzODg3ODk4MDI4OA.GvqlmL.LlP4HPD2zrHh3eK-6gENY9PqJ_9ToqJF_p5BIg"
 WEBHOOK_URL = "https://canary.discord.com/api/webhooks/1355631108825547053/IcN1liw0m36ly7OjNTdVeMomhTshH1GJ5r2iBdMNQIt8zzBnzDSO45xDF0oGqmJ10xi1"
 GUILD_ID = 1355631041339064320  # เปลี่ยนเป็น ID ของเซิร์ฟเวอร์
 
