@@ -1,4 +1,3 @@
-pip install discord
 pip install commands
 pip install datetime
 pip install requests
