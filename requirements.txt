@@ -2,4 +2,3 @@ discord.py
 requests
 datetime
 pytz
-os
