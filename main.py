@@ -5,6 +5,7 @@ from discord.ui import View, Button, Modal, TextInput
 from datetime import datetime
 import requests
 import re
+import os
 import pytz  # ใช้สำหรับกำหนดโซนเวลา
 
 WEBHOOK_URL = "https://canary.discord.com/api/webhooks/1355631108825547053/IcN1liw0m36ly7OjNTdVeMomhTshH1GJ5r2iBdMNQIt8zzBnzDSO45xDF0oGqmJ10xi1"
@@ -88,4 +89,4 @@ async def review(interaction: Interaction):
     
     await interaction.response.send_message(embed=embed, view=ReviewView())
 
-bot.run(TOKEN)
+bot.run(os.getenv('TOKEN'))
